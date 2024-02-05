@@ -8,7 +8,7 @@ body {
   justify-content: center;
   margin: 0;
   font-family: "Space Mono", monospace;
-  background-color: #d2c964;
+  background-color: #fee7b3;
   color: #333;
   font-size: 16px;
 }
@@ -27,7 +27,7 @@ body {
 }
 
 .fa-github-alt {
-  color: #ef7a23;
+  color: #fa7372;
 }
 
 img {
@@ -42,8 +42,8 @@ h1 {
   font-size: 3.5em;
   text-align: center;
   font-family: "Space  Mono", monospace;
-  background-color: #0c4d53;
-  color: #fff;
+  background-color: #c3dbff;
+  color: #000;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
@@ -51,7 +51,7 @@ h1 {
 .badge {
   height: 80px;
   width: 50px;
-  background-color: #ef7a23;
+  background-color: #ffbe98;
   z-index: 98;
   margin-bottom: -35px;
   margin-top: 10px;
@@ -63,7 +63,7 @@ h1 {
 .circle {
   width: 20px;
   height: 20px;
-  background-color: #b72a8a;
+  background-color: #fa7372;
   border-radius: 100%;
   z-index: 99;
   align-self: center;
@@ -79,7 +79,7 @@ h1 {
 h3 {
   width: 100%;
   text-align: center;
-  color: #ef7a23;
+  color: #fa7372;
 }
 
 ul {
@@ -106,8 +106,8 @@ ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: #0c4d53;
-  color: white;
+  background-color: #c3dbff;
+  color: #000;
   font-size: 18px;
   padding-bottom: 2em;
 }
@@ -134,7 +134,7 @@ ul {
   width: 100%;
   margin: 0;
   padding: 0;
-  border-bottom: 1px solid #9b8dc9;
+  border-bottom: 1px solid #fa7372;
   padding-bottom: 19px;
 }
 
@@ -143,11 +143,11 @@ ul {
   margin-top: 1em;
   padding: 1em;
   margin-bottom: 1em;
-  border: 2px solid #b72a8a;
+  border: 2px solid #fa7372;
 }
 
 section.repo-data {
-  background-color: #fff;
+  background-color: #fdf5e8;
   padding: 2em;
   padding-bottom: 1em;
 }
@@ -156,7 +156,7 @@ section.repo-data {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: #fff;
+  background-color: #fdf5e8;
   margin-top: 0;
   padding: 2em;
 }
@@ -172,7 +172,7 @@ section.repo-data {
 .repo-list li {
   width: 90%;
   margin: 1em 0;
-  border: 1px solid #ef7a23;
+  border: 1px solid #ffbe98;
   padding: 0.5em;
 }
 
@@ -183,7 +183,7 @@ section.repo-data {
 }
 
 .repo-list h3:hover {
-  background-color: #f2daf1;
+  background-color: #ffbe98;
   cursor: pointer;
 }
 
@@ -203,23 +203,23 @@ section.repo-data {
 .repo-data .visit {
   text-decoration: none;
   max-width: 200px;
-  color: #fff;
+  color: #000;
   padding: 0.75em;
   margin-top: 2em;
   cursor: pointer;
   display: block;
-  background-color: #0c4d53;
-  border: 1px solid #0c4d53;
+  background-color: #c3dbff;
+  border: 1px solid #fa7372;
 }
 
 .repo-data .visit:hover {
-  background-color: #d2c964;
+  background-color: #fa7372;
   border: 1px solid #ccc;
 }
 
 .button-container {
   width: 100%;
-  background-color: #fff;
+  background-color: #fdf5e8;
   padding-left: 2em;
   padding-bottom: 2em;
 }
