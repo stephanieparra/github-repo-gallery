@@ -4,6 +4,8 @@
 const overview = document.querySelector(".overview");
 const username = "stephanieparra";
 const repoList = document.querySelector(".repo-list");
+const repoContainer = document.querySelector(".repos");
+const specificRepoData = document.querySelector(".repo-data");
 
 //Function to call API and get response//
 const gitUserInfo = async function () {
@@ -48,3 +50,34 @@ const displayRepos = function (repos) {
     repoList.append(repoItem);
   }
 };
+
+//Click on repos to get their data//
+repoList.addEventListener("click", function (e) {
+  if (e.target.matches("h3")) {
+    const repoName = e.target.innerText;
+    getRepoInfo(repoName);
+  }
+});
+
+//Function to get specific repo info//
+const getRepoInfo = async function (repoName) {
+  const fetchInfo = await fetch(
+    `https://api.github.com/repos/${username}/${repoName}`
+  );
+  const repoInfo = await fetchInfo.json();
+
+  //Grab languages//
+  const fetchLanguages = await fetch(repoInfo.languages_url);
+  const languageData = await fetchLanguages.json();
+
+  //Make list/array of languages//
+  const languages = [];
+  for (language in languageData) {
+    languages.push(language);
+    console.log(languages);
+  }
+};
+
+const displayRepoInfo = function () {
+    
+}
